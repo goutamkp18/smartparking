@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Car, Sparkles } from 'lucide-react';
+import smartParkIcon from '../assets/images/smartpark_icon_1778996651401.png';
 
 export default function SplashScreen() {
   return (
@@ -43,7 +44,7 @@ export default function SplashScreen() {
               className="absolute inset-[-12px] border-t-2 border-r-2 border-cyan-400 rounded-full shadow-[0_0_15px_rgba(34,211,238,0.3)]"
             />
             <div className="w-28 h-28 bg-gradient-to-br from-cyan-500 via-indigo-600 to-fuchsia-600 rounded-[2.5rem] overflow-hidden flex items-center justify-center shadow-[0_0_50px_rgba(6,182,212,0.4)] border border-white/10 relative">
-              <img src="/src/assets/images/smartpark_icon_1778996651401.png" alt="SmartPark AI Icon" className="w-full h-full object-cover p-1.5" />
+              <img src={smartParkIcon} alt="SmartPark AI Icon" className="w-full h-full object-cover p-1.5" />
             </div>
           </div>
           

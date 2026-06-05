@@ -22,8 +22,9 @@ import {
 import { Link, useNavigate } from 'react-router-dom';
 import { parkingService } from '../services/parkingService';
 import { Booking, BookingStatus, SlotStatus, ParkingSlot } from '../types';
+import parkingMap from '../assets/images/parking_navigation_map.png';
 
-const mapImg = '/src/assets/images/parking_navigation_map.png';
+const mapImg = parkingMap;
 
 interface Point {
   x: number;
