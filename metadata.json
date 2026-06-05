@@ -1,0 +1,8 @@
+{
+  "name": "SmartPark AI",
+  "description": "A modern professional smart parking application with real-time slot monitoring, booking, and gate control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
